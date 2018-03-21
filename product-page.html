@@ -7,6 +7,8 @@
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
     <script async custom-element="amp-carousel" src="https://cdn.ampproject.org/v0/amp-carousel-0.1.js"></script>
+    <script async custom-element="amp-form" src="https://cdn.ampproject.org/v0/amp-form-0.1.js"></script>
+    <script async custom-element="amp-vimeo" src="https://cdn.ampproject.org/v0/amp-vimeo-0.1.js"></script>
     <link rel="canonical" href="https://ampbyexample.com/introduction/hello_world/">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/style.css">
@@ -84,6 +86,118 @@
                         <span class="price">$35.98</span>
                         <span></span>
                     </span>
+                </div>
+                <form action="#">
+                    <ol class="option-list">
+                        <li>
+                            <span class="title">Choose Your Pack Size</span>
+                            <div class="ampstart-input ampstart-input-radio inline-block relative mb3">
+                                <input type="radio" id="single_pack" class="relative" name="pack_size" value="Single Pack" checked="">
+                                <label for="single_pack">Single Pack <span>$35.98 ($35.98 each)</span></label>
+                            </div>
+                            <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3 ">
+                                <input type="radio" id="two_pack" class="relative" name="pack_size" value="2 Pack">
+                                <label for="two_pack" class="label-with-icon mark-green">
+                                    <strong>2 Pack <sapn>$70.02 ($35.01 each)</sapn></strong>
+                                </label>
+                            </div>
+                            <div class="ampstart-input ampstart-input-radio inline-block relative mb3">
+                                <input type="radio" id="five_pack" class="relative" name="pack_size" value="5 Pack">
+                                <label for="five_pack" class="label-with-icon mark-green">
+                                    <strong>5 Pack <sapn>$169.90 ($33.98 each)</sapn></strong>
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="title">Choose Auto Delivery Option </span>
+                            <div class="ampstart-input ampstart-input-radio inline-block relative mb3">
+                                <input type="radio" id="no_auto_delivery" class="relative" name="auto_delivery_option" value="No Auto Delivery" checked="">
+                                <label for="no_auto_delivery">No Auto Delivery</label>
+                            </div>
+                            <div class="ampstart-input ampstart-input-radio inline-block relative m0 p0 mb3 ">
+                                <input type="radio" id="auto_delivery_every" class="relative" name="auto_delivery_option" value="Auto Delivery Every">
+                                <label for="auto_delivery_every">Auto Delivery Every</label>
+                            </div>
+                            <div class="ampstart-input inline-block relative mb3">
+                                <select name="months" id="months">
+                                    <option value="-1">Select Months</option>
+                                    <option value="1">1 (one)</option>
+                                    <option value="2">2 (two)</option>
+                                    <option value="3">3 (three)</option>
+                                    <option value="4">4 (four)</option>
+                                    <option value="5">5 (five)</option>
+                                    <option value="6">6 (six)</option>
+                                    <option value="8">7 (seven)</option>
+                                    <option value="9">8 (eight)</option>
+                                    <option value="10">9 (nine)</option>
+                                    <option value="11">10 (ten)</option>
+                                    <option value="12">11 (eleven)</option>
+                                    <option value="13">12 (twelve)</option>
+                                </select>
+                                <label for="months" class="absolute top-0 right-0 bottom-0 left-0">Months <span class="mark-green">(Save 5% instantly)</span></label>
+                            </div>
+                        </li>
+                    </ol>
+                    <div class="btn-holder-secondary">
+                        <input type="submit" value="Add to Cart" class="ampstart-btn add-cart-btn">
+                    </div>
+                </form>
+                <div class="box-description">
+                    <h2>Full Description</h2>
+                    <div class="description">
+                        <p><strong>*Lennox upgraded this filter from a MERV 10 to a MERV 11**Still the same size but even better filtration effectiveness!*</strong></p>
+                        <p><strong>DiscountFurnaceFilter.com is the web's #1 source for the Lennox X6673 MERV 11 filter. Order your Lennox X6673 MERV 11 filter today and receive fast, efficient, FREE Shipping on Orders Over $125 (Continental U.S.)!</strong></p>
+                        <p>This MERV 11 X6673 filter from Lennox offers a 98% efficient filtration media capturing particles as small as 0.3 microns before they can collect on your coils. High-efficiency alternative to one-inch filters. Its larger media capacity allows for greater dust-holding ability.The Lennox X6673 MERV 11 filter is a suitable replacement filter for the Lennox HCC20-28 Air Cleaner as well as many other Trion Air Bear, Honeywell and Carrier Air Cleaners that accept a 20" X 25" X 5" filter media. The Lennox X6673 filter is designed to fit the following air cleaner models:</p>
+                        <ul>
+                            <li>Trion Air Bear: 453000-001, Supreme 2000, 455602-001, 447380-002</li>
+                            <li>Carrier: EZXCAB020, FILCABCC0020, MPKA0020, MPKA, MACA</li>
+                            <li>Honeywell: F25A1068, 1067, 1024, F100-1037, 1032, 1038, 2010, 2044, F150E-1034, F200E-1037</li>
+                        </ul>
+                        <p>We sell only genuine, brand new OEM replacement filters. The Lennox X6673 is one of the most popular Lennox replacement filters on the market and DiscountFurnaceFilter.com is the web's #1 choice for low price, fast delivery and great customer service!
+                            We have the Lennox X6673 filter in stock and offer same day shipping for orders placed before 5:00 EST.
+                            If you have any questions, please <a href="mailto:support@discountfurnacefilter.com?subject=Lennox%20X6673">Click Here</a> to contact our Sales Department or call 888-623-4678.
+                        </p>
+                        <amp-vimeo
+                                data-videoid="114554477"
+                                layout="responsive"
+                                width="16" height="9">
+                        </amp-vimeo>
+                    </div>
+                </div>
+                <div class="box-additional">
+                    <h2>Specifications</h2>
+                    <table class="data-table">
+                        <colgroup>
+                            <col width="25%">
+                            <col>
+                        </colgroup>
+                        <tbody>
+                            <tr class="first odd">
+                                <th>Best Seller?</th>
+                                <td class="data last">Yes</td>
+                            </tr>
+                            <tr class="even">
+                                <th>Brand</th>
+                                <td class="data last">Lennox</td>
+                            </tr>
+                            <tr class="odd">
+                                <th>Depth</th>
+                                <td class="data last">5"</td>
+                            </tr>
+                            <tr class="even">
+                                <th>Dimensions (Inches)</th>
+                                <td class="data last">20 x 25</td>
+                            </tr>
+                            <tr class="odd">
+                                <th>MERV Rating</th>
+                                <td class="data last">MERV 11</td>
+                            </tr>
+                            <tr class="last even">
+                                <th>OEM</th>
+                                <td class="data last">Yes</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
