@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html ⚡>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+    <title>Title</title>
+    <script async src="https://cdn.ampproject.org/v0.js"></script>
+    <script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
+    <link rel="canonical" href="https://ampbyexample.com/introduction/hello_world/">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <style amp-custom>
+        body,ul{margin:0}.more,a,a:hover{text-decoration:none}.cart,.wrapper{overflow:hidden}body{font:16px/1.35 Calibri,Arial,Helvetica,sans-serif;color:#000;background-color:#fff}h1{font:400 28px/1.2 helvetica,arial,sans-serif}h1,h2,h3{margin:0 0 12px}ul{padding:0;list-style:none}.container{max-width:100%;margin:0 auto;padding:0 15px;text-align:center}.category-head .container,.category-products .container,.heading-2,.section-default p,.top-links{text-align:left}.heading-2{border-bottom:1px solid #ECD9AC;font-size:18px;font-weight:400;color:#181818;margin:0 0 20px;padding:0 0 5px 25px;background:url(https://www.discountfurnacefilter.com/skin/frontend/default/em0067/images/search_logo.png) no-repeat}.delivery-block,.delivery-block .text{margin-bottom:8px}.clock-img{background:url(https://www.discountfurnacefilter.com/media/wysiwyg/dffauto/clock-banner-img.png) no-repeat;width:22px;height:19px}.more{display:inline-block;vertical-align:middle;padding:2px 11px;background:#791016;font-size:18px;color:#fff;border-radius:5px}.cart,.dff_links,.top-links{display:flex}.header{padding:8px 0}.top-links{justify-content:space-between;align-items:center;padding:0 0 10px}.top-links a{color:#991d1f}.cart .h3,.menu-btn{color:#fff}.menu-btn{margin-right:12px;border:0;background:#991d1f}.dff_links li{margin-right:16px}.cart{align-items:flex-end;height:13px;padding:5px 8px 5px 38px;background:url(https://www.discountfurnacefilter.com/skin/frontend/default/em0067/images/icons.png) 4px -44px no-repeat #6f1108;border:1px solid #6f1108}.main-content{padding-bottom:20px}.delivery-block{background:#363e4c;font-size:16px;color:#fff;border-top:4px solid #991d1f;padding-bottom:8px}.delivery-block span{display:inline-block;vertical-align:middle}.product-list{padding:12px 0 0}.product-list .item{display:block;padding:5px 8px 8px;margin-bottom:12px;border:1px solid #ccc;border-radius:10px;overflow:hidden;background:#eee;background:-moz-linear-gradient(top,#fff 0,#eee 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0,#fff),color-stop(100%,#eee));background:-webkit-linear-gradient(top,#fff 0,#eee 100%);background:-o-linear-gradient(top,#fff 0,#eee 100%);background:-ms-linear-gradient(top,#fff 0,#eee 100%);background:linear-gradient(to bottom,#fff 0,#eee 100%)}.item .img-wrap{display:block;margin-bottom:8px}.item .heading-2{font-size:16px;line-height:24px;color:maroon}.sponsors-block,.top-sellers{margin-bottom:12px}.menu_nav{margin-bottom:8px;font-size:16px;line-height:1}.menu_nav a,.menu_nav strong{display:block;margin-bottom:8px;color:#000;text-align:left}.section-default,.section-default .text{margin-bottom:12px}.section-default a{color:maroon;text-decoration:underline}.section-default p{margin-bottom:0}#sidebar-left{padding:10px 20px 0;background:maroon}.btn-holder{display:flex;justify-content:flex-end}.btn-holder button{border:0;background-color:#fff;color:maroon}.main-menu,.main-menu a{color:#fff}.main-menu{width:250px}.main-menu ul ul{margin:0 0 8px 8px}.item-product,.item-product a{color:#991D1A}.main-menu h5{font-size:16px;text-transform:uppercase;margin:0 0 8px}.category-head{margin-bottom:24px}.add-to-cart-product-list,.footer ul li,.footer_about_us_wrap,.footer_title,.item-product,.item-product-amount,.price-box{margin-bottom:12px}.description-holder{border:1px solid #eaeaea;padding:10px}.item-product{padding:10px;font-family:Arial,Helvetica,sans-serif;box-shadow:0 0 10px #eee}.item-product .product-image{text-align:center;display:block;margin-bottom:12px}.footer ul,.footer_title{text-align:left}.item-product .product-name{font-size:16px;line-height:1.35}.price-box{font-size:14px;line-height:1.2;font-weight:700}.price-box .price{color:#555;margin-right:8px}.add-to-cart-product-list .btn-cart{border:0;padding:8px 16px;background:#791016;font-size:18px;color:#fff;border-radius:5px}.out-of-stock{margin-top:12px;font-weight:700;color:#000}.copyright,.footer a{color:#fff}.footer{padding:30px 0;background-color:maroon}.footer_about_us_wrap{padding-bottom:12px;border-bottom:solid 1px #fff}.footer_about_us_wrap:last-child{padding-bottom:0;border-bottom:0}.footer_title{font-size:24px;color:#fff;text-transform:uppercase;display:block}.footer .social_media{display:flex;flex-direction:row;justify-content:space-between;width:100%}.copyright{font-style:normal}
+    </style>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+</head>
+<body>
+<div class="wrapper">
+    <header class="header">
+        <div class="container">
+            <div class="top-links">
+                <button on="tap:sidebar-left.toggle"
+                        class="material-icons menu-btn">
+                    menu
+                </button>
+                <ul class="dff_links">
+                    <li><a href="https://www.discountfurnacefilter.com/customer/account/" title="My Account">My Account</a></li>
+                    <li><a href="https://www.discountfurnacefilter.com/customer/account/login/" title="Log In">Log In</a></li>
+                </ul>
+                <a class="cart" href="https://www.discountfurnacefilter.com/checkout/cart/">
+                    <span class="h3">0</span>
+                </a>
+            </div>
+            <a href="#" class="logo">
+                <amp-img src="https://www.discountfurnacefilter.com/skin/frontend/default/em0067/images/logo.jpg"
+                         width="300"
+                         height="45"
+                         layout="responsive"
+                         alt="discountfurnacefilter">
+                </amp-img>
+            </a>
+        </div>
+    </header>
+    <div class="main-content">
+        <div class="delivery-block">
+            <div class="container">
+                <span class="text">Save even more when you choose aut <span class="clock-img"></span> - delivery</span>
+                <a class="more" href="/auto-delivery/">Learn More</a>
+            </div>
+        </div>
+        <div class="category-head">
+            <div class="container">
+                <h1>Dehumidifiers</h1>
+                <div class="description-holder">Dehumidifiers from Aprilaire, Honeywell, Lennox, Sradler Form, Trion and more. Huge Selection and the Lowest Prices on Dehumidifiers only at DiscountFurnaceFilter.com.</div>
+            </div>
+        </div>
+        <div class="category-products">
+            <div class="container">
+                <div class="item-product-amount">
+                    12 Item(s)
+                </div>
+                <div class="item-product">
+                    <a href="https://www.discountfurnacefilter.com/honeywell-dr65a2000-dehumidifier-replaces-model-dr65a1000" title="Honeywell DR65A2000 Dehumidifier" class="product-image">
+                        <amp-img src="https://www.discountfurnacefilter.com/media/catalog/product/cache/1/small_image/250x/9df78eab33525d08d6e5fb8d27136e95/H/O/HONEYWELLDR65A2000.jpg"
+                                 width="260"
+                                 height="260"
+                                 alt="Honeywell DR65A2000 Dehumidifier"></amp-img>
+                    </a>
+                    <h2 class="product-name">
+                        <a href="https://www.discountfurnacefilter.com/honeywell-dr65a2000-dehumidifier-replaces-model-dr65a1000" title="Honeywell DR65A2000 Dehumidifier">Honeywell DR65A2000 Dehumidifier</a>
+                    </h2>
+                    <div class="price-box">
+                        <span class="regular-price5">
+                            <span class="price">$1,094.67</span>
+                            <span class="free-shipping-category">Includes FREE Shipping in Continental U.S.</span>
+                        </span>
+                    </div>
+                    <div class="add-to-cart-product-list">
+                        <button type="button" title="Add to Cart" class="button btn-cart"
+                                data-add-url="https://www.discountfurnacefilter.com/checkout/cart/add/uenc/aHR0cHM6Ly93d3cuZGlzY291bnRmdXJuYWNlZmlsdGVyLmNvbS9zaG9wYnkvZGVodW1pZGlmaWVycy8,/product/51857/form_key/1nNPzAl0QyMEh3rf/">
+                            Add to Cart
+                        </button>
+                    </div>
+                    <div class="learn-more-holder">
+                        <a class="learn-more"
+                           href="https://www.discountfurnacefilter.com/aprilaire-1770a-dehumidifier"
+                           title="Aprilaire 1770A Dehumidifier">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+                <div class="item-product">
+                    <a href="https://www.discountfurnacefilter.com/aprilaire-1870-dehumidifier-130-pints-per-day-with-automatic-digital-control"
+                       title="APRILAIRE 1870 - Dehumidifier 130 Pints Per Day with Automatic Digital Control"
+                       class="product-image">
+                        <amp-img src="https://www.discountfurnacefilter.com/media/catalog/product/cache/1/small_image/250x/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/small_image.jpg"
+                                 width="260"
+                                 height="260"
+                                 alt="APRILAIRE 1870 - Dehumidifier 130 Pints Per Day with Automatic Digital Control"></amp-img>
+                    </a>
+                    <h2 class="product-name">
+                        <a href="https://www.discountfurnacefilter.com/aprilaire-1870-dehumidifier-130-pints-per-day-with-automatic-digital-control"
+                           title="APRILAIRE 1870 - Dehumidifier 130 Pints Per Day with Automatic Digital Control">
+                            APRILAIRE 1870 - Dehumidifier 130 Pints Per Day with Automatic Digital Control
+                        </a>
+                    </h2>
+                    <div class="price-box">
+                        <span class="regular-price5">
+                            <span class="price">$1,549.95</span>
+                            <span class="free-shipping-category">Includes FREE Shipping in Continental U.S.</span>
+                        </span>
+                    </div>
+                    <div class="add-to-cart-product-list">
+                        <button type="button" title="Add to Cart" class="button btn-cart"
+                                data-add-url="https://www.discountfurnacefilter.com/checkout/cart/add/uenc/aHR0cHM6Ly93d3cuZGlzY291bnRmdXJuYWNlZmlsdGVyLmNvbS9zaG9wYnkvZGVodW1pZGlmaWVycy8,/product/51857/form_key/1nNPzAl0QyMEh3rf/">
+                            Add to Cart
+                        </button>
+                        <div class="availability out-of-stock">Out of stock</div>
+                    </div>
+                    <div class="learn-more-holder">
+                        <a class="learn-more"
+                           href="https://www.discountfurnacefilter.com/aprilaire-1870-dehumidifier-130-pints-per-day-with-automatic-digital-control"
+                           title="APRILAIRE 1870 - Dehumidifier 130 Pints Per Day with Automatic Digital Control">
+                            Learn More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-links-top">
+                <div class="footer_about_us_wrap">
+                    <span class="footer_title" id="tootle-footer-nav0">About Us</span>
+                    <ul id="tootle-footer-content0">
+                        <li><a href="https://www.discountfurnacefilter.com/about-us">Our Story</a></li>
+                        <li><a href="https://www.discountfurnacefilter.com/meet-the-team">Meet the Team</a></li>
+                        <li><a href="https://www.discountfurnacefilter.com/mission">Transforming Lives</a></li>
+                        <li><a title="DiscountFurnaceFilter.com Press and Media" href="/press-and-media">Press &amp; Media</a></li>
+                        <li><a href="https://www.discountfurnacefilter.com/testimonials">Customer Testimonials</a></li>
+                        <li><a title="Why Shop With DiscountFurnaceFilter.com" href="/why-shop-with-us">Why Shop With Us?</a></li>
+                        <li><a title="Trusted &amp; Secure" href="/trusted-secure-site">Trusted &amp; Secure</a></li>
+                    </ul>
+                </div>
+                <div class="footer_about_us_wrap">
+                    <span class="footer_title" id="tootle-footer-nav1">Customer Service</span>
+                    <ul id="tootle-footer-content1">
+                        <li class="last"><a href="https://www.discountfurnacefilter.com/contact-us">Contact Us</a></li>
+                        <li class="last"><a href="https://www.discountfurnacefilter.com/customer/account/login/">Account Log In / Register</a></li>
+                        <li class="privacy"><a href="https://www.discountfurnacefilter.com/shipping-and-returns">Shipping &amp; Returns</a></li>
+                        <li class="privacy"><a href="https://www.discountfurnacefilter.com/privacy-policy">Privacy Policy</a></li>
+                        <li class="privacy"><a href="https://www.discountfurnacefilter.com/terms-conditions">Terms &amp; Conditions</a></li>
+                        <li class="privacy"><a href="https://www.discountfurnacefilter.com/customer-promise">Our Customer Promise</a></li>
+                    </ul>
+                </div>
+                <div class="footer_about_us_wrap">
+                    <span class="footer_title" id="tootle-footer-nav2">Get Social</span>
+                    <ul class="social_media" id="tootle-footer-content2">
+                        <li>
+                            <a href="https://www.facebook.com/DiscountFurnaceFilter" target="_blank">
+                                <amp-img src="https://www.discountfurnacefilter.com/media/wysiwyg/FB_DFF.png" alt="Discount Furnace Filter Facebook" width="40" height="40"></amp-img>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/Furnace_Filter" target="_blank">
+                                <amp-img src="https://www.discountfurnacefilter.com/media/wysiwyg/TW_DFF.png" alt="Discount Furnace Filter Twitter" width="40" height="40"></amp-img>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.pinterest.com/FurnaceFilter/" target="_blank">
+                                <amp-img src="https://www.discountfurnacefilter.com/media/wysiwyg/PT_DFF.png" alt="Discount Furnace Filter Pinterest" width="40" height="40"></amp-img>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/+Discountfurnacefilters" target="_blank">
+                                <amp-img src="https://www.discountfurnacefilter.com/media/wysiwyg/GP_DFF.png" alt="Discount Furnace Filter Google Plus" width="40" height="40"></amp-img>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/user/DiscountFurnaceFil" target="_blank">
+                                <amp-img src="https://www.discountfurnacefilter.com/media/wysiwyg/UT_DFF.png" alt="Discount Furnace Filter Youtube" width="40" height="40"></amp-img>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="payment-methods">
+                <amp-img src="https://www.discountfurnacefilter.com/media/wysiwyg/payment-methods.png"
+                         width="266"
+                         height="35"
+                         alt="payment methods">
+                </amp-img>
+            </div>
+            <address class="copyright">© 2017 Discount Furnace Filter. All Rights Reserved.</address>
+        </div>
+    </footer>
+</div>
+</body>
+<amp-sidebar id="sidebar-left"
+             layout="nodisplay"
+             side="left">
+    <div class="btn-holder">
+        <button on="tap:sidebar-left.close" role="button" class="material-icons">close</button>
+    </div>
+    <nav class="main-menu" toolbar="(min-width: 784px)"
+         toolbar-target="target-element-left">
+        <ul id="em-hnav" class="hnav">
+            <li class="menu-item-link">
+                <a href="/shopby/filters">Furnace Filters</a>
+            </li>
+            <li class="menu-item-link menu-item-depth-0  menu-item-parent">
+                <a href="/shopby/humidifiers">Humidifiers</a>
+                <ul class="menu-container">
+                    <li class="menu-item-hbox">
+                        <ul class="menu-container">
+                            <li class="menu-item-vbox">
+                                <ul class="menu-container">
+                                    <li class="menu-item-text">
+                                        <h5>Category</h5>
+                                    </li>
+                                    <li><a href="/shopby/humidifiers/whole-house">Whole House</a></li>
+                                    <li><a href="/shopby/humidifiers/portable">Portable</a></li>
+                                    <li><a href="/shopby/water-panels-wicks">Water Panels</a></li>
+                                    <li><a href="/shopby/humidifier-parts-supplies/parts-supplies">Parts &amp; Supplies</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-vbox">
+                                <ul class="menu-container">
+                                    <li class="menu-item-text">
+                                        <h5>Brands</h5>
+                                    </li>
+                                    <li><a href="/shopby/aprilaire/humidifiers">Aprilaire</a></li>
+                                    <li><a href="/shopby/generalaire/humidifiers">GeneralAire</a></li>
+                                    <li><a href="/shopby/honeywell/humidifiers">Honeywell</a></li>
+                                    <li><a href="/shopby/trion/humidifiers">Trion</a></li>
+                                    <li><a href="/shopby/trane/humidifiers">Trane</a></li>
+                                    <li><a href="/shopby/essick-air/humidifiers">Essick Air</a></li>
+                                    <li><a href="/shopby/lennox/humidifiers">Lennox</a></li>
+                                    <li><a href="/shopby/crane/humidifiers">Crane</a></li>
+                                    <li><a href="/shopby/stadler-form/humidifiers">Stadler</a></li>
+                                    <li><a href="/shopby/broksonic/humidifiers">Broksonic</a></li>
+                                    <li><a href="/shopby/vicks/humidifiers">Vicks</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item-link">
+                <a href="/shopby/dehumidifiers">Dehumidifiers</a>
+                <ul class="menu-container">
+                    <li class="menu-item-hbox">
+                        <ul class="menu-container">
+                            <li class="menu-item-vbox">
+                                <ul class="menu-container">
+                                    <li class="menu-item-text">
+                                        <h5>Category</h5>
+                                    </li>
+                                    <li><a href="/shopby/dehumidifiers/whole-house">Whole House</a></li>
+                                    <li><a href="/shopby/dehumidifiers/portable">Portable</a></li>
+                                    <li><a href="/shopby/dehumidifier-parts-supplies/parts-supplies">Parts &amp; Supplies</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="menu-item-vbox">
+                                <ul class="menu-container">
+                                    <li class="menu-item-text">
+                                        <h5>Brands</h5>
+                                    </li>
+                                    <li><a href="/shopby/aprilaire/dehumidifiers">Aprilaire</a></li>
+                                    <li><a href="/shopby/honeywell/dehumidifiers">Honeywell</a></li>
+                                    <li><a href="/shopby/lennox/dehumidifiers">Lennox</a></li>
+                                    <li><a href="/shopby/stadler-form/dehumidifiers/">Stadler Form</a></li>
+                                    <li><a href="/shopby/trion/dehumidifiers">Trion</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item-link">
+                <a href="/shopby/air-cleaners">Air Cleaners</a>
+                <ul class="menu-container">
+                    <li class="menu-item-hbox">
+                        <ul class="menu-container">
+                            <li class="menu-item-vbox" >
+                                <ul class="menu-container">
+                                    <li class="menu-item-text menu-item-depth-3  ">
+                                        <h5>Category</h5>
+                                    </li>
+                                    <li><a href="/shopby/air-cleaners/carbon/">Carbon</a></li>
+                                    <li><a href="/shopby/air-cleaners/hepa/">HEPA</a></li>
+                                    <li><a href="/shopby/germicidal-uv/">Germicide UV Light</a></li>
+                                    <li><a href="/shopby/air-cleaner-parts-supplies/parts-supplies/">Parts and Supplies</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="menu-item-vbox">
+                                <ul class="menu-container">
+                                    <li class="menu-item-text menu-item-depth-3  ">
+                                        <h5>Brands</h5>
+                                    </li>
+                                    <li><a href="/shopby/austin-air/air-cleaners/">Austin Air</a></li>
+                                    <li><a href="/shopby/stadler-form/air-cleaners/">Stadler Form</a></li>
+                                    <li><a href="/shopby/lennox/air-cleaners/">Lennox</a></li>
+                                    <li><a href="/shopby/aprilaire/air-cleaners/">Aprilaire</a></li>
+                                    <li><a href="/shopby/abatement/air-cleaners/">Abatement Technologies</a></li>
+                                    <li><a href="/shopby/generalaire/air-cleaners/">GeneralAire</a></li>
+
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item-link">
+                <a href="/shopby/hvac">HVAC</a>
+                <ul class="menu-container">
+                    <li class="menu-item-hbox">
+                        <ul class="menu-container">
+                            <li class="menu-item-vbox">
+                                <ul class="menu-container">
+                                    <li><a href="/shopby/heaters-fans">Heaters &amp; Fans</a></li>
+                                    <li><a href="/shopby/hvac/parts-supplies">Parts &amp; Supplies</a></li>
+                                    <li><a href="/shopby/hvac/thermostats-monitors">Thermostats &amp; Monitors</a></li>
+                                    <li><a href="/shopby/hvac/ventilation">Ventilation</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item-link">
+                <a href="/shopby/parts-supplies/">Parts &amp; Supplies</a>
+                <ul class="menu-container">
+                    <li class="menu-item-hbox">
+                        <ul class="menu-container">
+                            <li class="menu-item-vbox">
+                                <ul class="menu-container">
+                                    <li class="menu-item-text menu-item-depth-3">
+                                        <h5 >Category</h5>
+                                    </li>
+                                    <li><a href="/shopby/water-panels-wicks/">Water Panels</a></li>
+                                    <li><a href="/shopby/refrigerator-filters/">Refrigerator Filters</a></li>
+                                    <li><a href="/shopby/dehumidifier-parts-supplies/">Dehumidifier Parts</a></li>
+                                    <li><a href="/shopby/humidifier-parts-supplies/">Humidifier Parts</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu-item-vbox">
+                                <ul class="menu-container">
+                                    <li class="menu-item-text">
+                                        <h5>Brands</h5>
+                                    </li>
+                                    <li><a href="/shopby/lennox/parts-supplies/">Lennox</a></li>
+                                    <li><a href="/shopby/aprilaire/parts-supplies/">Aprilaire</a></li>
+                                    <li><a href="/shopby/generalaire/parts-supplies/">GeneralAire</a></li>
+                                    <li><a href="/shopby/essick-air/parts-supplies/">Essick Air</a></li>
+                                    <li><a href="/shopby/crane/parts-supplies/">Crane</a></li>
+                                    <li><a href="/shopby/abatement/parts-supplies/">Abatement Technologies</a></li>
+                                    <li><a href="/shopby/honeywell/parts-supplies/">Honeywell</a></li>
+                                    <li><a href="/shopby/bryant/parts-supplies/">Bryant</a></li>
+                                    <li><a href="/shopby/carrier/parts-supplies/">Carrier</a></li>
+                                    <li><a href="/shopby/parts-supplies/">More</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-item-link sale-link ">
+                <a href="/sale">SALE</a>
+            </li>
+        </ul>
+    </nav>
+</amp-sidebar>
+</html>
