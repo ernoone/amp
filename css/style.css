@@ -273,6 +273,25 @@ ul{
     color : #333;
     word-break: break-all;
 }
+.rating-box{
+    width: 77px;
+    height: 12px;
+    margin : 0 auto;
+    font-size: 0;
+    line-height: 0;
+    background: url(https://www.discountfurnacefilter.com/skin/frontend/default/em0067/images/bkg_rating.png) 0 0 repeat-x;
+    text-indent: -999em;
+    overflow: hidden;
+}
+.rating-box .rating{
+    height: 12px;
+    background: url(https://www.discountfurnacefilter.com/skin/frontend/default/em0067/images/bkg_rating.png) 0 100% repeat-x;
+}
+.rating-box .rating[data-active-count="1"]{width : 20%;}
+.rating-box .rating[data-active-count="2"]{width : 40%;}
+.rating-box .rating[data-active-count="3"]{width : 60%;}
+.rating-box .rating[data-active-count="4"]{width : 80%;}
+.rating-box .rating[data-active-count="5"]{width : 100%;}
 .rating-links a{
     color : #791016;
 }
