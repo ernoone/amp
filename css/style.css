@@ -240,6 +240,13 @@ ul{
     color: #555;
     margin-right: 8px;
 }
+.price-label{
+    font-size : 17px;
+    font-weight : 400;
+}
+.regular-price .price{
+    font-size : 25px;
+}
 .add-to-cart-product-list{
     margin-bottom: 12px;
 }
@@ -308,7 +315,7 @@ ul{
     position: relative;
     text-align: center;
     vertical-align: top;
-    margin : 0 10px;
+    margin : 0 10px 10px;
     width : 83px;
     height : 83px;
     border-radius : 100%;
@@ -334,6 +341,30 @@ ul{
     color: #fff;
     text-shadow: 1px 1px #969696;
     font-weight: bold;
+}
+.proqulity .label{
+    position : absolute;
+    font-size : 12px;
+    color : #000;
+    text-transform : uppercase;
+    text-shadow:none;
+    display : inline-block;
+    text-align : center;
+    font-weight : 400;
+    z-index : 1;
+}
+.proqulity.custom span{
+    top : 42px;
+}
+.proqulity.custom .label.top{
+    top : 17px;
+}
+.proqulity .label.top{
+    top : 10px;
+}
+.proqulity .label.bottom{
+    top : auto;
+    bottom : 10px;
 }
 .proqulity:nth-child(2) span{
     font-size : 20px;
@@ -427,6 +458,21 @@ ul{
 }
 .data-table{
     width: 100%;
+}
+.no-rating{
+    margin: 7px 0 17px;
+    overflow: hidden;
+    font-size : 12px;
+}
+.no-rating a{color : #800000;}
+.amazon-affiliate-wrapper .btn-affiliate {
+    background: url(https://www.discountfurnacefilter.com/skin/frontend/default/em0067/images/btn-amazon-affiliate.gif);
+    display: block;
+    width: 160px;
+    height: 56px;
+    text-indent: -9999px;
+    border: 0;
+    margin : 0 auto;
 }
 .footer{
     padding: 30px 0;
