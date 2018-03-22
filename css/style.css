@@ -474,6 +474,9 @@ ul{
     border: 0;
     margin : 0 auto;
 }
+.best-sellers-outer{
+    margin-bottom : 30px;
+}
 .best-sellers-outer .heading-3{
     text-align : left;
 }
