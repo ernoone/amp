@@ -535,9 +535,44 @@ ul{
 }
 .add-to-cart{
     display : flex;
+    align-items: center;
 }
 .dff-product-qty-wrapper{
     display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.input-text.qty{
+    width: 50px;
+    height: 30px;
+    margin: 0 15px;
+    padding: 0 13px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 0 8px 0 #dfdbdb inset;
+    outline: none;
+    box-sizing: border-box;
+}
+.qty-ctl{
+    display: flex;
+    flex-direction: column;
+}
+.add-to-cart .qty-ctl button{
+    font-size: 0;
+    border-radius: 3px;
+    background: #aaa url("https://www.discountfurnacefilter.com/skin/frontend/default/em0067/images/items.png") no-repeat 0 0;
+    width: 22px;
+    height: 21px;
+    border: 0;
+    padding: 0;
+    outline: none;
+}
+.add-to-cart .qty-ctl .increase{
+    margin-bottom: 6px;
+}
+.add-to-cart .qty-ctl .decrease{
+    background-position: -22px 0;
+    margin: 0 0 6px 0;
 }
 .error-message,
 .successful-message{
